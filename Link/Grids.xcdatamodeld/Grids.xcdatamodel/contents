@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Grid" representedClassName="Grid" syncable="YES" codeGenerationType="class">
+        <attribute name="correctCount" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="correctness" optional="YES" attributeType="Transformable"/>
+        <attribute name="groups" optional="YES" attributeType="Transformable"/>
+        <attribute name="placement" optional="YES" attributeType="Transformable"/>
+        <attribute name="selected" optional="YES" attributeType="Transformable"/>
+        <attribute name="selectedCount" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Grid" positionX="-63" positionY="-18" width="128" height="133"/>
+    </elements>
+</model>
