@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		45014E87259072D4000A897A /* Grids.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45014E85259072D4000A897A /* Grids.xcdatamodeld */; };
 		450871C4258B443D00AAEDE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450871C3258B443D00AAEDE6 /* AppDelegate.swift */; };
 		450871C6258B443D00AAEDE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450871C5258B443D00AAEDE6 /* SceneDelegate.swift */; };
 		450871C8258B443D00AAEDE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450871C7258B443D00AAEDE6 /* ContentView.swift */; };
@@ -18,10 +17,10 @@
 		450871E7258C5FA700AAEDE6 /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 450871D9258C5FA600AAEDE6 /* Nunito-Light.ttf */; };
 		450871EB258C5FA700AAEDE6 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 450871DD258C5FA700AAEDE6 /* Nunito-Regular.ttf */; };
 		45889B1025908096006B678C /* GridInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45889B0F25908096006B678C /* GridInfo.swift */; };
+		45889B2125920DB7006B678C /* Grids.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45889B1F25920DB7006B678C /* Grids.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		45014E86259072D4000A897A /* Grids.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Grids.xcdatamodel; sourceTree = "<group>"; };
 		450871C0258B443D00AAEDE6 /* Link.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Link.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		450871C3258B443D00AAEDE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		450871C5258B443D00AAEDE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +33,7 @@
 		450871D9258C5FA600AAEDE6 /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
 		450871DD258C5FA700AAEDE6 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
 		45889B0F25908096006B678C /* GridInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridInfo.swift; sourceTree = "<group>"; };
+		45889B2025920DB7006B678C /* Grids.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Grids.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 		450871C2258B443D00AAEDE6 /* Link */ = {
 			isa = PBXGroup;
 			children = (
-				45014E85259072D4000A897A /* Grids.xcdatamodeld */,
+				45889B1F25920DB7006B678C /* Grids.xcdatamodeld */,
 				450871C3258B443D00AAEDE6 /* AppDelegate.swift */,
 				450871C5258B443D00AAEDE6 /* SceneDelegate.swift */,
 				450871C7258B443D00AAEDE6 /* ContentView.swift */,
@@ -173,10 +173,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				45889B1025908096006B678C /* GridInfo.swift in Sources */,
+				45889B2125920DB7006B678C /* Grids.xcdatamodeld in Sources */,
 				450871C4258B443D00AAEDE6 /* AppDelegate.swift in Sources */,
 				450871C6258B443D00AAEDE6 /* SceneDelegate.swift in Sources */,
 				450871C8258B443D00AAEDE6 /* ContentView.swift in Sources */,
-				45014E87259072D4000A897A /* Grids.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,13 +376,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		45014E85259072D4000A897A /* Grids.xcdatamodeld */ = {
+		45889B1F25920DB7006B678C /* Grids.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				45014E86259072D4000A897A /* Grids.xcdatamodel */,
+				45889B2025920DB7006B678C /* Grids.xcdatamodel */,
 			);
-			currentVersion = 45014E86259072D4000A897A /* Grids.xcdatamodel */;
-			path = Grids.xcdatamodeld;
+			currentVersion = 45889B2025920DB7006B678C /* Grids.xcdatamodel */;
+			name = Grids.xcdatamodeld;
+			path = ../../../.Trash/Grids.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

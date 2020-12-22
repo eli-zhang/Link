@@ -68,6 +68,13 @@ struct ContentView: View {
         }
     }
     
+    func clearData() {
+        for grid in grids {
+            self.managedObjectContext.delete(grid)
+        }
+        saveContext()
+    }
+    
 //    init() {
 //        loadData()
 //    }
@@ -218,7 +225,6 @@ struct ContentView: View {
             }.gesture(DragGesture()
                 .onChanged { value in
                     self.dragOffset = value.translation
-                    print(self.dragOffset)
                     if self.dragOffset.height > 200 {
                         self.clearGrid()
                     } else if self.dragOffset.width > 150 {
