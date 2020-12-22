@@ -17,6 +17,7 @@
 		450871E6258C5FA700AAEDE6 /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 450871D8258C5FA600AAEDE6 /* Nunito-ExtraLight.ttf */; };
 		450871E7258C5FA700AAEDE6 /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 450871D9258C5FA600AAEDE6 /* Nunito-Light.ttf */; };
 		450871EB258C5FA700AAEDE6 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 450871DD258C5FA700AAEDE6 /* Nunito-Regular.ttf */; };
+		45889B1025908096006B678C /* GridInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45889B0F25908096006B678C /* GridInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		450871D8258C5FA600AAEDE6 /* Nunito-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraLight.ttf"; sourceTree = "<group>"; };
 		450871D9258C5FA600AAEDE6 /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
 		450871DD258C5FA700AAEDE6 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		45889B0F25908096006B678C /* GridInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				450871C3258B443D00AAEDE6 /* AppDelegate.swift */,
 				450871C5258B443D00AAEDE6 /* SceneDelegate.swift */,
 				450871C7258B443D00AAEDE6 /* ContentView.swift */,
+				45889B0F25908096006B678C /* GridInfo.swift */,
 				450871C9258B444400AAEDE6 /* Assets.xcassets */,
 				450871CE258B444400AAEDE6 /* LaunchScreen.storyboard */,
 				450871D1258B444400AAEDE6 /* Info.plist */,
@@ -169,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45889B1025908096006B678C /* GridInfo.swift in Sources */,
 				450871C4258B443D00AAEDE6 /* AppDelegate.swift in Sources */,
 				450871C6258B443D00AAEDE6 /* SceneDelegate.swift in Sources */,
 				450871C8258B443D00AAEDE6 /* ContentView.swift in Sources */,
